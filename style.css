@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.top-banner {
+   background-image: url("images/top-banner.png");
+   background-repeat: no-repeat; 
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.name-highlight {
+    color: orange;
+    font-size: 50px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    padding: 2% 2% 2% 2%;  
+}
+
+.half-width p {
+    color: #767676;
+}
+
+.half-width .button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: 300ms;
+}
+
+.half-width .button:hover {
+    background-image: linear-gradient(45deg, white, lightgray);
+    color: #FF7052;
+    border: 1px solid #FF7052;
+}
+
+.half-width:last-child {
+    margin-right: 0;
+    margin-left: 0; 
+}
+
+.half-width img {
+    width: 100%;
+}
+
+
+/* Middle Section */
+.middle-banner {
+    margin-top: 60px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Experiences Section */
+.end-banner{
+   margin-top: 100px;
+   padding-bottom: 60px;
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left; 
+}
+
+.end-banner .exp-hading{
+    font-size: 40px;
+}
+
+.half-width h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.half-width h3 {
+    font-size: 18px;
+    color: orange;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 330px;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;  
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* footer */
+
+footer {
+    margin-top: 80px;
+    text-align: center;
+    color: #767676;
+}
+
